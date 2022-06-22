@@ -4,7 +4,7 @@ import { StyleSheet, Text} from 'react-native';
 export default function Dolar(props) {
 	return (
 		<>
-      <Text >{props.data.high}</Text>
+      <Text >valor: {props.data.high}</Text>
 		</>
 	);
 }
